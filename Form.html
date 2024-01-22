@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Form.css">
+    <title>Form 2</title>
+
+</head>
+<body>
+
+<form action="">
+    <div class="legend">
+        <u><legend>Project Management</legend></u>
+    </div>
+
+
+    <br>
+
+    <div class="body">
+    <label for="pname">Project Name</label>
+    <input type="text" id="pname" placeholder="project name" required="required">
+
+    <br><br>
+
+    <label for="assign">Assigned to</label>
+        <div class="assign">
+    <select name="" id="assign" >
+        <option value="ExMerryPetison" disabled="disabled">Ex Merry Petison</option>
+    </select>
+            </div>
+
+    <br><br>
+
+    <label for="sdate">Start Date</label>
+    <input type="date" id="sdate" required="required">
+
+    <br><br>
+
+    <label for="edate">End Date</label>
+    <input type="date" id="edate" required="required">
+
+    <br><br>
+
+    <label for="pr" id="pr">Priority</label>
+        <div class="priority">
+
+    <input type="radio">
+    <label for="high" id="high">High</label>
+
+    <input type="radio">
+    <label for="avg" id="avg">Average</label>
+
+    <input type="radio">
+    <label for="low" id="low">Low</label>
+            </div>
+
+    <br><br>
+
+    <label for="desc">Description</label>
+        <div class="description">
+    <textarea name="" id="desc" cols="30" rows="2" required="required"></textarea>
+            </div>
+
+    <br><br>
+
+
+    <button type="submit" class="b1">Submit</button>
+    <button type="reset" class="b2">Clear</button>
+        </div>
+
+</form>
+
+</body>
+</html>
